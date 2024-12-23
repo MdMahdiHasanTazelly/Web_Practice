@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hanling post request</title>
+</head>
+<body>
+    <h2>Get request</h2>
+    <!-- GET method sends data as query string -->
+    <form action="http://localhost:8080/checkGet" method="get" >
+        <input type="text" placeholder="Enter name" name="name">
+        <input type="password" placeholder="Enter password" name="pass">
+        <button>Submit</button>
+    </form>
+    
+    <hr>
+
+    <h2>Post request</h2>
+    <!-- POST request send data as request body -->
+    <form action="http://localhost:8080/checkPost" method="post">
+        <input type="text" placeholder="Enter name" name="name">
+        <input type="password" placeholder="Enter password" name="pass">
+        <button>Submit</button>
+    </form>
+
+</body>
+</html>
