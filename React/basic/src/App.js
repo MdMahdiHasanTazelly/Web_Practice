@@ -1,6 +1,8 @@
 import Prop from "./Prop.js";
 import PropArray from "./PropArray.js";
 import Conditionals from "./Conditionals.js";
+import ComponentStyling from "./ComponentStyling.js";
+import EventHandling from "./EventHandling.js";
 
 function App() {
   return (
@@ -14,6 +16,14 @@ function App() {
 
       {/* Conditionals */}
       <Conditionals price={40}/>
+
+
+      {/* Component styling using condition */}
+      <ComponentStyling num={-1}/>
+
+
+      {/* Event Handling */}
+      <EventHandling/>
 
     </div>
   );
