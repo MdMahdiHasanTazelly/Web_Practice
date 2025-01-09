@@ -6,6 +6,7 @@ import EventHandling from "./EventHandling.js";
 import WorkingRerender from "./WorkingRerender.js";
 import CallbackInStateFunc from "./CallbackInStateFunc.js";
 import ObjectAsStateVar from "./ObjectAsStateVar.js";
+import Todo from "./Todo.js";
 
 function App() {
   return (
@@ -38,6 +39,9 @@ function App() {
 
       {/* Working of objec as a state variable */}
       <ObjectAsStateVar />
+
+
+      <Todo />
 
     </div>
   );
