@@ -3,6 +3,9 @@ import PropArray from "./PropArray.js";
 import Conditionals from "./Conditionals.js";
 import ComponentStyling from "./ComponentStyling.js";
 import EventHandling from "./EventHandling.js";
+import WorkingRerender from "./WorkingRerender.js";
+import CallbackInStateFunc from "./CallbackInStateFunc.js";
+import ObjectAsStateVar from "./ObjectAsStateVar.js";
 
 function App() {
   return (
@@ -24,6 +27,17 @@ function App() {
 
       {/* Event Handling */}
       <EventHandling/>
+
+
+      {/* how re-rendering works in react */}
+      <WorkingRerender />
+
+      {/* to make change in state variable one after another*/}
+      <CallbackInStateFunc />
+
+
+      {/* Working of objec as a state variable */}
+      <ObjectAsStateVar />
 
     </div>
   );
