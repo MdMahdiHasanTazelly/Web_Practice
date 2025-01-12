@@ -7,6 +7,8 @@ import WorkingRerender from "./WorkingRerender.js";
 import CallbackInStateFunc from "./CallbackInStateFunc.js";
 import ObjectAsStateVar from "./ObjectAsStateVar.js";
 import Todo from "./Todo.js";
+import MultipleInputForm from "./MultipleInputForm.js";
+import CommentForm from "./CommentForm.js";
 
 function App() {
   return (
@@ -43,6 +45,14 @@ function App() {
 
       <Todo />
 
+
+      {/* Handling multple from inputs */}
+      <MultipleInputForm />
+
+      {/* Another form practice */}
+      <CommentForm/>
+
+      
     </div>
   );
 }
