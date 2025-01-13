@@ -9,6 +9,7 @@ import ObjectAsStateVar from "./ObjectAsStateVar.js";
 import Todo from "./Todo.js";
 import MultipleInputForm from "./MultipleInputForm.js";
 import CommentForm from "./CommentForm.js";
+import UseEffect from "./UseEffect.js";
 
 function App() {
   return (
@@ -53,6 +54,10 @@ function App() {
       <CommentForm/>
 
       
+      {/* Usage of use effect */}
+      <UseEffect />
+    
+
     </div>
   );
 }
